@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-Directing Agent Swarm System</title>
+    <meta name="description" content="A conceptual framework for a self-directing, self-referential agent swarm system with autonomous method discovery and infinite loop integration">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <i class="fas fa-robot text-blue-600 text-2xl mr-2"></i>
+                        <span class="font-bold text-xl text-gray-800">SwarmAI</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="architecture.html" class="text-gray-600 hover:text-blue-600 transition-colors">Architecture</a>
+                    <a href="workflow.html" class="text-gray-600 hover:text-blue-600 transition-colors">Workflow</a>
+                    <a href="financial.html" class="text-gray-600 hover:text-blue-600 transition-colors">Financial</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-blue-600">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="architecture.html" class="block px-3 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-md">Architecture</a>
+                <a href="workflow.html" class="block px-3 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-md">Workflow</a>
+                <a href="financial.html" class="block px-3 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-md">Financial</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="relative bg-blue-600 h-screen flex items-center" style="background-image: url('https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); background-size: cover; background-position: center;">
+        <div class="absolute inset-0 bg-black opacity-60"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                    Self-Directing Agent Swarm System
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto">
+                    A revolutionary framework for autonomous method discovery and infinite loop integration, powered by AI swarms that learn, adapt, and scale automatically.
+                </p>
+                <div class="flex justify-center space-x-4">
+                    <a href="architecture.html" class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                        Explore Architecture
+                    </a>
+                    <a href="workflow.html" class="bg-white hover:bg-gray-100 text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+                        View Workflow
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Core System Features</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Discover how our autonomous swarm system revolutionizes method discovery and implementation across digital domains.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Meta-Learning Core -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-brain text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Meta-Learning Core</h3>
+                    <p class="text-gray-600">
+                        Continuously scans and evaluates proven strategies across domains, converting successful patterns into replicable swarm blueprints.
+                    </p>
+                </div>
+
+                <!-- Fractal Autonomy -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-network-wired text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Fractal Autonomy</h3>
+                    <p class="text-gray-600">
+                        Sub-agents work in harmony for method discovery, legal compliance, and resource optimization within each swarm.
+                    </p>
+                </div>
+
+                <!-- Closed-Loop Evolution -->
+                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-infinity text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Closed-Loop Evolution</h3>
+                    <p class="text-gray-600">
+                        Successful swarms automatically spawn new method-hunters, creating exponential growth opportunities.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Growth Stats Section -->
+    <div class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Exponential Growth Potential</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Watch as your swarm system scales from single-digit profits to six-figure daily revenue through autonomous optimization.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="px-4 sm:px-6 lg:px-8">
+                    <div class="mt-8 flow-root">
+                        <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                            <div class="inline-block min-w-full py-2 align-middle">
+                                <table class="min-w-full divide-y divide-gray-200">
+                                    <thead>
+                                        <tr>
+                                            <th class="px-6 py-3 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Cycle</th>
+                                            <th class="px-6 py-3 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Methods Used</th>
+                                            <th class="px-6 py-3 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">New Discoveries</th>
+                                            <th class="px-6 py-3 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Daily Revenue</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="bg-white divide-y divide-gray-200">
+                                        <tr>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">1</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">1</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">3</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-blue-600 font-semibold">$8.20</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">2</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">4</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">9</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-blue-600 font-semibold">$890</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">3</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">13</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">27</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-blue-600 font-semibold">$14,200</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">4</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">40</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">81</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-blue-600 font-semibold">$310,000</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="col-span-2">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-robot text-blue-400 text-2xl mr-2"></i>
+                        <span class="font-bold text-xl">SwarmAI</span>
+                    </div>
+                    <p class="text-gray-400 mb-4">
+                        Revolutionizing digital automation through self-directing, self-referential agent swarms.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="architecture.html" class="text-gray-400 hover:text-white transition-colors">Architecture</a></li>
+                        <li><a href="workflow.html" class="text-gray-400 hover:text-white transition-colors">Workflow</a></li>
+                        <li><a href="financial.html" class="text-gray-400 hover:text-white transition-colors">Financial</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-4">Resources</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Documentation</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">API Reference</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 SwarmAI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
