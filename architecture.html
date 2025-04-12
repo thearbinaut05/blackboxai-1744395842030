@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture - Self-Directing Agent Swarm System</title>
+    <meta name="description" content="Core architecture principles of the self-directing agent swarm system including Meta-Learning Core, Fractal Autonomy, and Closed-Loop Evolution">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <i class="fas fa-robot text-blue-600 text-2xl mr-2"></i>
+                        <span class="font-bold text-xl text-gray-800">SwarmAI</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="architecture.html" class="text-gray-600 hover:text-blue-600 transition-colors">Architecture</a>
+                    <a href="workflow.html" class="text-gray-600 hover:text-blue-600 transition-colors">Workflow</a>
+                    <a href="financial.html" class="text-gray-600 hover:text-blue-600 transition-colors">Financial</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-blue-600">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="architecture.html" class="block px-3 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-md">Architecture</a>
+                <a href="workflow.html" class="block px-3 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-md">Workflow</a>
+                <a href="financial.html" class="block px-3 py-2 text-gray-600 hover:bg-blue-50 hover:text-blue-600 rounded-md">Financial</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="pt-16">
+        <div class="bg-blue-600 text-white py-24" style="background-image: url('https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); background-size: cover; background-position: center;">
+            <div class="absolute inset-0 bg-blue-900 opacity-90"></div>
+            <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">System Architecture</h1>
+                <p class="text-xl text-blue-100 max-w-3xl">
+                    Discover the core principles that power our self-directing agent swarm system, enabling autonomous method discovery and infinite loop integration.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Meta-Learning Core Section -->
+    <div class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-6">Meta-Learning Core</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        The central AI system continuously scans for proven, existing strategies across multiple domains:
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">E-commerce Optimization</h4>
+                                <p class="text-gray-600">Analyzing successful product listing templates and marketing strategies</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">Content Strategy</h4>
+                                <p class="text-gray-600">Identifying viral content patterns and engagement metrics</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                            <div>
+                                <h4 class="font-semibold text-gray-900">SaaS Growth Methods</h4>
+                                <p class="text-gray-600">Extracting successful pricing and feature deployment strategies</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl">
+                    <div class="bg-white rounded-lg shadow-lg p-6">
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Strategy Evaluation Process</h3>
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                                        <i class="fas fa-search text-blue-600"></i>
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-lg font-medium text-gray-900">Pattern Recognition</h4>
+                                    <p class="text-gray-600">Identifying recurring success patterns across platforms</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
+                                        <i class="fas fa-chart-line text-green-600"></i>
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-lg font-medium text-gray-900">Performance Analysis</h4>
+                                    <p class="text-gray-600">Evaluating strategy effectiveness and ROI potential</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0">
+                                    <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
+                                        <i class="fas fa-code-branch text-purple-600"></i>
+                                    </div>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="text-lg font-medium text-gray-900">Blueprint Generation</h4>
+                                    <p class="text-gray-600">Converting successful patterns into replicable templates</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fractal Autonomy Section -->
+    <div class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Fractal Autonomy</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Each swarm contains specialized sub-agents working in harmony to discover, validate, and implement successful methods.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Method Discovery Agent -->
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-magnifying-glass text-blue-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Method Discovery</h3>
+                    <p class="text-gray-600 mb-4">
+                        Continuously scans and identifies proven strategies across various platforms and industries.
+                    </p>
+                    <ul class="space-y-3 text-sm text-gray-600">
+                        <li class="flex items-center">
+                            <i class="fas fa-circle-check text-green-500 mr-2"></i>
+                            Pattern recognition
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-circle-check text-green-500 mr-2"></i>
+                            Success metrics analysis
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-circle-check text-green-500 mr-2"></i>
+                            Trend identification
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Legality Assessment Agent -->
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-scale-balanced text-green-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Legality Assessment</h3>
+                    <p class="text-gray-600 mb-4">
+                        Ensures all methods comply with legal requirements and platform policies.
+                    </p>
+                    <ul class="space-y-3 text-sm text-gray-600">
+                        <li class="flex items-center">
+                            <i class="fas fa-circle-check text-green-500 mr-2"></i>
+                            Compliance verification
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-circle-check text-green-500 mr-2"></i>
+                            Terms of service review
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-circle-check text-green-500 mr-2"></i>
+                            Risk assessment
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Resource Mapping Agent -->
+                <div class="bg-white rounded-xl shadow-lg p-8">
+                    <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-sitemap text-purple-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-4">Resource Mapping</h3>
+                    <p class="text-gray-600 mb-4">
+                        Identifies and allocates optimal resources for method implementation.
+                    </p>
+                    <ul class="space-y-3 text-sm text-gray-600">
+                        <li class="flex items-center">
+                            <i class="fas fa-circle-check text-green-500 mr-2"></i>
+                            Tool identification
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-circle-check text-green-500 mr-2"></i>
+                            Cost optimization
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-circle-check text-green-500 mr-2"></i>
+                            Resource allocation
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Closed-Loop Evolution Section -->
+    <div class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Closed-Loop Evolution</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Successful swarms automatically spawn new method-hunters, creating exponential opportunity branching.
+                </p>
+            </div>
+
+            <div class="relative">
+                <!-- Evolution Timeline -->
+                <div class="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-blue-200"></div>
+                
+                <div class="space-y-12">
+                    <!-- Initial Deployment -->
+                    <div class="relative">
+                        <div class="md:flex items-center">
+                            <div class="md:w-1/2 pr-8 md:text-right">
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Initial Deployment</h3>
+                                <p class="text-gray-600">Swarm launches with basic method implementation</p>
+                            </div>
+                            <div class="hidden md:block w-12 h-12 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 bg-blue-500 rounded-full flex items-center justify-center">
+                                <i class="fas fa-rocket text-white"></i>
+                            </div>
+                            <div class="md:w-1/2 pl-8">
+                                <div class="bg-blue-50 rounded-lg p-6">
+                                    <ul class="space-y-2 text-gray-600">
+                                        <li class="flex items-center">
+                                            <i class="fas fa-check text-blue-500 mr-2"></i>
+                                            Resource allocation
+                                        </li>
+                                        <li class="flex items-center">
+                                            <i class="fas fa-check text-blue-500 mr-2"></i>
+                                            Initial testing
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Performance Analysis -->
+                    <div class="relative">
+                        <div class="md:flex items-center">
+                            <div class="md:w-1/2 pr-8 md:text-right">
+                                <div class="bg-green-50 rounded-lg p-6">
+                                    <ul class="space-y-2 text-gray-600">
+                                        <li class="flex items-center justify-end">
+                                            Data collection
+                                            <i class="fas fa-check text-green-500 ml-2"></i>
+                                        </li>
+                                        <li class="flex items-center justify-end">
+                                            ROI calculation
+                                            <i class="fas fa-check text-green-500 ml-2"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="hidden md:block w-12 h-12 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 bg-green-500 rounded-full flex items-center justify-center">
+                                <i class="fas fa-chart-line text-white"></i>
+                            </div>
+                            <div class="md:w-1/2 pl-8">
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Performance Analysis</h3>
+                                <p class="text-gray-600">Continuous monitoring and optimization</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Swarm Multiplication -->
+                    <div class="relative">
+                        <div class="md:flex items-center">
+                            <div class="md:w-1/2 pr-8 md:text-right">
+                                <h3 class="text-xl font-bold text-gray-900 mb-2">Swarm Multiplication</h3>
+                                <p class="text-gray-600">Successful methods spawn new swarms</p>
+                            </div>
+                            <div class="hidden md:block w-12 h-12 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 bg-purple-500 rounded-full flex items-center justify-center">
+                                <i class="fas fa-code-branch text-white"></i>
+                            </div>
+                            <div class="md:w-1/2 pl-8">
+                                <div class="bg-purple-50 rounded-lg p-6">
+                                    <ul class="space-y-2 text-gray-600">
+                                        <li class="flex items-center">
+                                            <i class="fas fa-check text-purple-500 mr-2"></i>
+                                            Clone creation
+                                        </li>
+                                        <li class="flex items-center">
+                                            <i class="fas fa-check text-purple-500 mr-2"></i>
+                                            Resource distribution
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer (Same as index.html) -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="col-span-2">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-robot text-blue-400 text-2xl mr-2"></i>
+                        <span class="font-bold text-xl">SwarmAI</span>
+                    </div>
+                    <p class="text-gray-400 mb-4">
+                        Revolutionizing digital automation through self-directing, self-referential agent swarms.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="architecture.html" class="text-gray-400 hover:text-white transition-colors">Architecture</a></li>
+                        <li><a href="workflow.html" class="text-gray-400 hover:text-white transition-colors">Workflow</a></li>
+                        <li><a href="financial.html" class="text-gray-400 hover:text-white transition-colors">Financial</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-4">Resources</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Documentation</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">API Reference</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 SwarmAI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
