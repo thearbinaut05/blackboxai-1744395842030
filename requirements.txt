@@ -1,0 +1,4 @@
+urwid
+aiohttp
+requests
+beautifulsoup4
